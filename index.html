@@ -1,15 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Tonado</title>
-      <script type="module" crossorigin src="/assets/index-87d6526e.js"></script>
-      <link rel="stylesheet" href="/assets/index-9c8b3f12.css">
-    </head>
-    <body>
-        <div id="app"></div>
-        
-    </body>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="icon" href="/favicon.ico"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="robots" content="all"/>
+		<meta property="og:title" content="Tonado"/>
+		<meta property="og:description" content="Coverband aus Wolkersdorf und Umgebung"/>
+		<meta property="og:image" content="https://www.tonado.at/logo_x600.jpg"/>
+		<meta property="og:image:alt" content="Tonado Logo"/>
+		<meta property="og:url" content="https://www.tonado.at"/>
+		<meta property="og:locale" content="de_AT"/>
+		<title>Tonado</title>
+		<base href="/"/>
+		<script type="text/javascript">(function (l) {
+ if (l.search[1] === '/') {
+ const decoded = l.search
+ .slice(1)
+ .split('&')
+ .map(function (s) {
+ return s.replace(/~and~/g, '&');
+ })
+ .join('?');
+ window.history.replaceState(
+ null,
+ null,
+ l.pathname.slice(0, -1) + decoded + l.hash,
+ );
+ }
+ })(window.location);</script>
+		<script type="module" crossorigin src="/assets/main-450c438f.js"></script>
+		<link rel="stylesheet" href="/assets/index-3836c442.css"/>
+	</head>
+	<body>
+		<div id="app"></div>
+	</body>
 </html>

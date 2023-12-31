@@ -1,0 +1,1 @@
+import{_ as o,o as s,i as t,l as n}from"./6a95e38f9fb3f3d6.js";const c={},r={class:"flex flex-column gap-3"};function a(e,l){return s(),t("div",r,[n(e.$slots,"default")])}const f=o(c,[["render",a]]);export{f as C};
